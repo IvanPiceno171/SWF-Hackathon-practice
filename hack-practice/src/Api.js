@@ -3,7 +3,7 @@ import { useState } from "react";
 
 
 const ApiComponent = ()  =>{
-    const [data, setData] = useState([]);
+    const [data, setData] = useState([]); // useState Hook
 
        const getData = async () =>{  
         const response = await axios.get("https://api.quotable.io/random");
