@@ -1,3 +1,54 @@
-.red {
-  color: red;
+footer {
+  background-color: rgb(15 23 42);
+  color: rgb(203 213 225);
+  height: 25vh;
+}
+
+li {
+  list-style-type: none;
+  color: rgb(148 163 184);
+  margin-bottom: 0.5rem;
+}
+
+.foundation {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  /* margin-left: -40px; */
+  margin: 0 2rem 0 -8px;
+  max-width: 1280px;
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    margin: 0 16rem 0 216px;
+    max-width: 768px;
+  }
+}
+
+.enhance {
+  color: rgb(203 213 225);
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.line {
+  margin: 0 16rem 1rem 16rem;
+  border-bottom: 1px solid rgb(30 41 59);
+  max-width: 768px;
+}
+
+.links {
+  text-align: center;
+  color: rgb(203 213 225);
+  max-width: 1280px;
+}
+
+a {
+  margin: 0 1rem 0 1rem;
 }
