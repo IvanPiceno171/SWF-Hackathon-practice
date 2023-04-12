@@ -10,10 +10,8 @@ function App() {
         <p>Test3</p>
         <p>Test4</p>
         <p></p>
-
-        <Footer></Footer>
-        <h1>hello world</h1>
       </header>
+      <Footer></Footer>
     </div>
   );
 }
