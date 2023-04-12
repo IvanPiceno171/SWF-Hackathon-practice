@@ -4,8 +4,8 @@ import React from "react";
 export default function Footer() {
   return (
     <footer>
-      <div className={styles.foundation}>
-        <div className={styles.wrapper}>
+      <div className={styles.wrapper}>
+        <div className={styles.columns}>
           <div>
             <ul>
               <li className={styles.enhance}>About</li>
