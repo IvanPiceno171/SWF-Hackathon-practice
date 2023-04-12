@@ -1,0 +1,14 @@
+.NavbarContainer{
+    border: 1rem groove rgb(59, 59, 181);
+}
+
+
+
+/* Nav Links */
+.NavbarUl{
+    display: flex;
+    justify-content: space-around;
+}
+.NavbarUl > li{
+    list-style-type:none;  
+}
