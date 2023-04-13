@@ -36,7 +36,7 @@ export default function Footer() {
           <a href="https://github.com/" target="_blank" rel="noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              fill="rgb(203 213 225)"
+              fill="rgb(148 163 184)"
               width="24"
               height="24"
               viewBox="0 0 24 24"
@@ -47,7 +47,7 @@ export default function Footer() {
           <a href="https://github.com/" target="_blank" rel="noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              fill="rgb(203 213 225)"
+              fill="rgb(148 163 184)"
               width="24"
               height="24"
               viewBox="0 0 24 24"
@@ -60,5 +60,3 @@ export default function Footer() {
     </footer>
   );
 }
-
-// export default Footer;

@@ -1,6 +1,5 @@
 footer {
   background-color: rgb(15 23 42);
-  color: rgb(203 213 225);
 }
 
 ul {
@@ -17,7 +16,7 @@ li {
 .wrapper {
   display: flex;
   flex-direction: column;
-  margin: auto;
+  margin: 0 auto;
   padding: 1rem 0;
   max-width: 1280px;
 }
@@ -29,52 +28,47 @@ li {
   margin-bottom: 1rem;
 }
 
-/* COLUMNS */
 .columns {
   display: flex;
   justify-content: space-between;
   margin: 0 1rem;
 }
 
-@media (min-width: 768px) {
-  .columns {
-    margin: 0 8rem 0 8rem;
-  }
-}
-
-@media (min-width: 1280px) {
-  .columns {
-    margin: 0 18rem 0 18rem;
-  }
-}
-
-/* LINE */
 .line {
   margin: 0 1rem 0.5rem 1rem;
   border-bottom: 1px solid rgb(30 41 59);
 }
 
+/* Responsiveness */
 @media (min-width: 768px) {
+  .columns {
+    margin: 0 8rem;
+  }
+
   .line {
     margin: 0 8rem 0.5rem 8rem;
-    max-width: 1280px;
   }
 }
 
 @media (min-width: 1280px) {
+  .columns {
+    margin: 0 18rem;
+  }
+
   .line {
     margin: 0 18rem 0.5rem 18rem;
-    max-width: 1280px;
   }
 }
 
-/* LINKS */
+/* GitHub Links */
 .links {
   text-align: center;
-  color: rgb(203 213 225);
-  max-width: 1280px;
 }
 
 a {
-  margin: 0 1rem 0 1rem;
+  margin: 0 1rem;
+}
+
+svg:hover {
+  fill: rgb(203 213 225);
 }
